@@ -93,6 +93,9 @@ p {
     grid-template-columns: repeat(4, 60px);
     grid-template-rows: minmax(60px, auto) repeat(5, 60px);
   }
+  p {
+    width: 100px;
+  }
 
   .grid-container > button {
     font-size: 1rem;
@@ -103,6 +106,6 @@ p {
   }
 
   .grid-container > .output > .segundo-valor {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
