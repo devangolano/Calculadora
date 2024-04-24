@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Calculadora</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-
+      <div class="grid-container">
+        <div class="output">
+          <div data-primeiroValor class="primeiro-valor">0</div>
+          <div data-segundoValor class="segundo-valor"></div>
+        </div>
+        <button data-limparTela class="espaco">AC</button>
+        <button data-deletar>DEL</button>
+        <button data-operacao class="operacao">÷</button>
+        <button data-numeros>1</button>
+        <button data-numeros>2</button>
+        <button data-numeros>3</button>
+        <button data-operacao class="operacao">*</button>
+        <button data-numeros>4</button>
+        <button data-numeros>5</button>
+        <button data-numeros>6</button>
+        <button data-operacao class="operacao">+</button>
+        <button data-numeros>7</button>
+        <button data-numeros>8</button>
+        <button data-numeros>9</button>
+        <button data-operacao class="operacao">-</button>
+        <button data-numeros class="espaco">.</button>
+        <button data-numeros>0</button>
+        <button data-igual class="operacao">=</button>
+        <p>Dev Angolano 🇦🇴</p>
+      </div>
     </main>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
